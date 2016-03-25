@@ -1,0 +1,127 @@
+.container-video{
+	overflow: hidden;
+	width: 100%;
+	height:350px;
+}
+.container-video img{
+    top: 0;
+    left: 0;
+    max-width: 100%;
+}
+
+.smallBtn{
+	width: 100px;
+}
+.action-title{
+	font-size: 2.8em;
+	font-weight: 500;
+}
+.money{
+	font-size: 2em;
+}
+.money2{
+	font-size: 1.2em;
+}
+.titles1{
+	font-size: 36px;
+	font-weight: 500;
+}
+.titles2{
+	overflow: auto;
+	margin: 20px 0;
+	margin-left: -15px;
+}
+.titles2 h2 {
+	margin-top : 0;
+}
+.small-title{
+	font-size: 1.6em;
+	font-weight: 400;
+	margin-bottom: -15px;
+	opacity: 0.7;
+}
+.small-title2{
+	font-size: 1.5em;
+	font-weight: 500;
+	margin: 0px auto 0px -15px;
+}
+.small-title3{
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+.text{
+	font-size: 20px;
+	opacity: 0.7;
+}
+.text2{
+	font-size: 14px;
+	opacity: 0.7;
+}
+.bar{
+	margin-left: -15px;
+}
+.progress{
+	border-radius: 10px;
+}
+.description{
+	font-size: 1em;
+	color:#7A7A7A;
+	max-width: 860px;
+	font-weight: 200;
+	margin:30px auto;
+}
+.center {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.total{
+	margin-top: 10px;
+	font-weight: 200;
+}
+.link{
+	opacity: 0.7;
+}
+.progress2{
+	height: 14px;
+}
+.action-pic{
+	margin: 15px 15px 15px 0px;
+	width: 100%;
+}
+.cover {
+	height: 100px;
+	width: 100px;
+	border:3px rgba(245,141,141,1) solid;
+	border-radius: 50%;
+  object-fit:cover;
+}
+.acCover{
+	height: 350px;
+	width: 100%;
+  object-fit:cover;
+}
+.margin-11 {
+	margin-bottom:-5px;
+	color:#000; 
+	opacity: 0.8;
+}
+.picmargin{
+	margin-top: 30px;
+}
+#timesup{
+	color:red;
+	font-weight: 400;
+}
+.org-link2{
+	color: #ffffff;
+  opacity: 0.7;
+  font-weight: 200;
+  font-size: 1em;
+}
+.postby{
+	color: #ffffff;
+  font-weight: 200;
+  font-size: 1em;
+}

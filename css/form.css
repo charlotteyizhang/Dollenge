@@ -1,0 +1,141 @@
+
+.form-control1{
+	border-color: #f6b241;
+	border-radius:10px;
+	background-color:rgba(246,178,65,0.7);
+}
+.add{
+	margin-top: 10px;
+	max-width: 400px;
+}
+.add2{
+	background-color: rgba(255,255,255,0.7);
+	margin-top: 10px;
+	max-width: 400px;
+}
+.formtext4{
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+
+.funding-border{
+	border-color: #fc9494;
+	border-radius: 10px;
+}
+
+.form-control2{
+	border-width: 0px;
+	border-radius:10px;
+}
+.max-width{
+	max-width: 500px;
+	margin: 15px auto;
+}
+.formlabel{
+	color:#7A7A7A;
+	font-weight: 200;
+}
+.title{
+	max-width: 100%;
+	margin: -20px auto;
+}
+.date{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.date1{
+	margin-left: 45px;
+	margin-right: -15px;
+}
+.line2{
+  size:0.5px;
+  color:#fff;
+  width:90%;
+  opacity: 0.5;
+  margin: 30px auto;
+}
+.funding1{
+	font-size: 1.5em;
+	font-weight: 400;
+	color:#000;
+}
+.raise{
+	margin: -15px;
+}
+/* my detail
+-------------------------------------------------------------------*/
+.bg-detail{
+  background-color: #4a4a4a;
+  color: #fff;
+}
+.detailWidch{
+	max-width: 700px;
+}
+.UPic{
+	margin: 15px;
+}
+.pwBtn{
+	width: 100%;
+	margin:15px auto;
+}
+.title3{
+	font-size: 2.2em;
+	text-align: center;
+}
+.name{
+	font-size: 2em;
+	font-weight: 400;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+.hero{
+	font-size: 1em;
+	font-weight: 200;
+	margin:auto; 
+	margin-left: 10px;
+}
+.formtext{
+	color: #90c8da;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+.password2{
+	border-color: #90c8da;
+}
+.formtext2{
+	color: #f6b241;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+.password3{
+	border-color: #f6b241;
+}
+.formtext3{
+	color: #b5da90;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+.password4{
+	border-color: #b5da90;
+}
+.mapborder{
+	border-color: #f6b241;
+	background-color: rgba(255,255,255, 0.7);
+	width: 78%;
+	margin: 10px auto;
+}
+.btn-center{
+	margin:0 auto;
+}
+@media (max-width:991px) { 
+.name{
+	text-align: center;
+}
+.hero{
+	font-size: 1em;
+	font-weight: 200;
+	text-align: center;
+	margin:15px auto 0px auto; 
+}
+}

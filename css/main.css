@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import 'homepage.css';
+@import 'myprofile.css';
+@import 'event.css';
+@import 'form.css';
+@import 'actionPage.css';
+@import 'about.css';
+@import 'animate.css';

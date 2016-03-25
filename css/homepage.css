@@ -1,0 +1,445 @@
+body {
+  background-color: #000;
+}
+.btn {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders 
+-----------------------------------------------------------------*/ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar-nav li a {
+  font-size: 1em;
+  font-weight: 200;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    
+}
+.notice{
+    position: fixed;
+    z-index: 100;
+}
+.loginBtn{
+    color: #fff;
+    margin: 5px;
+  background-color: #e46e6e;
+  font-size: 1em;
+    font-weight: 200;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    position:relative;
+    float: left;
+    display:block;
+    text-decoration: none;
+    padding:10px 15px;
+}
+.loginBtn:hover, .loginBtn:focus, .loginBtn:active{
+    background-color: #FFC8C8;
+    border: 1px solid #e46e6e;
+    color:#fff;
+    text-decoration: none;
+}
+.registerBtn{
+    color: #e46e6e;
+    margin: 5px;
+    background-color: #fff;
+    font-size: 1em;
+    font-weight: 200;
+    border: 1px solid #e46e6e;
+    border-radius: 6px;
+    position:relative;
+    float: left;
+    display:block;
+    text-decoration: none;
+    padding:10px 15px;
+}
+.registerBtn:hover, .registerBtn:focus, .registerBtn:active{
+    background-color: #FFC8C8;
+    color:#fff;
+    text-decoration: none;
+}
+.logo{
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+.navForm{
+    z-index: 1000;
+}
+#userText, #close{
+    z-index: 500;
+    top: 0px;
+    position: fixed;
+    color: #150a0a;
+}
+.search{
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+}
+.choose{
+  height: 40px;
+  background-color: #DcDcDc;
+  margin-right: 5px;
+}
+
+/* Carousel 
+------------------------------------------------------------*/
+.carousel {
+  height: 600px;
+  width: 100%;
+  margin: auto;
+}
+.carousel-caption {
+  margin: 51px auto 30px;
+  bottom: auto;
+}
+
+.charthero{
+  width: 110px;
+  height: 110px;
+  border: 2px solid rgba(255,255,255,0.8);
+  border-radius: 50%;
+  margin:40px auto;
+    -webkit-animation-duration: 2s;
+  -webkit-animation-delay:1.4s;
+}
+
+.c{
+  width:auto;
+  margin:40px auto;
+      -webkit-animation-duration: 2s;
+  -webkit-animation-delay:1.6s;
+}
+
+.carousel h2{
+  font-size: 3em;
+  color: #FCAC45;
+  font-weight: 400;
+  text-align: center;
+}
+.carousel h5{
+  font-size: 1em;
+  color: rgba(255,255,255,1);
+  font-weight: 200;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* Declare heights because of positioning of img element 
+-------------------------------------------------------------*/
+.carousel .item {
+    min-height: 600px;
+    background-color: #777;
+    overflow: hidden;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    object-fit:cover;
+}
+.carousel-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.428571;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay:1.6s;
+}
+
+}
+.carousel-button:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: rgba(252, 148, 148, 0.4);
+}
+.carousel-button2:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(245, 165, 35, 0.4);
+}
+.carousel-button3:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(74, 144, 226, 0.4);
+}
+.carousel h1{
+	font-size:4em;
+	font-weight: 300;
+	margin: 25px auto;
+  text-transform:uppercase;
+}
+.carousel h1 strong{
+ color:#FCAC45;
+}
+.carousel p{
+	font-size: 1.6em;
+  font-weight: 200;
+	margin: 30px auto;
+  opacity: 0.8;
+}
+.beHero{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay:1s;
+}
+.text1{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay:1.2s;
+}
+/*Actions
+-------------------------------------------------------*/
+.container-fluid{
+  padding: 30px;
+  margin: auto;
+  width: 100%;
+}
+.bg-action{
+  background-color: #efefef;
+}
+.maxWidth{
+    max-width: 960px;
+}
+.titles{
+	overflow: auto;
+	margin: 20px 0;
+}
+.marginzero{
+    margin: 0;
+}
+.container-fluid h2{
+	float: left;
+	width: auto;
+	color: inherit;
+  line-height: 2;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+
+}
+.col-sm-4{
+  max-width: 590px;
+  margin: 0 auto 30px auto;
+}
+.morebtn{
+	float: right;
+	display: inline-block;
+  padding: 0 12px;
+  margin: 20px 0px 20px 30px;
+  line-height: 2;
+	color: inherit;
+	text-decoration: none;
+	border: solid 0.5px #fff;
+	border-radius: 5px;
+	font-size: 1em;
+}
+.morebtn:hover{
+	text-decoration: none;
+}
+.container-fluid h3{
+	color: inherit;
+	font-size: 1.4em;
+	margin: 5px auto;
+	font-weight: 500;
+  text-transform:uppercase;
+}
+.container-fluid p{
+	color: inherit;
+}
+.org-link{
+	text-decoration: none;
+	color: inherit;
+  opacity: 0.6;
+  font-weight: 200;
+  font-size: 0.85em;
+}
+.funding-link{
+  font-size: 1.2em;
+  font-weight: 300;
+  color: inherit;
+  opacity: 0.6;
+}
+.postby{
+	float: right;
+}
+.action-text{
+  font-size: 1em;
+  font-weight: 200;
+  color: #4A4A4A;
+  margin:10px 0; 
+}
+.margin-10{
+  margin:0px auto -5px auto;
+}
+/**progress bar attributes**/
+.progress{
+	margin-bottom: 0;
+  background-color: #cfcfcf;
+}
+.mintgreen{
+	background-color: #50e3c2;
+}
+.lemonyellow{
+   background-color: #FFCD35;
+}
+.lightgreen{
+  background-color: rgba(183, 232, 134, 0.8);
+}
+.transparent-bar{
+  background: rgba(255,255,255,.1);
+  border: 1px solid;
+}
+/**------------**/
+.container-fluid span{
+	color: inherit;
+  margin-right: 20%;
+}
+.block{
+  display: block;
+  width: 29%;
+  float: left;
+  margin-left: 4%;
+}
+.display-block{
+  display: block;
+}
+.donatebtn{
+	background-color: #f6b241;
+	font-size: 1.5em;
+  display: inline-block;
+  width: 100%;
+  padding: 0 12px;
+  line-height: 2;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  margin: 15px auto;
+}
+.donatebtn:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(246, 178, 65, 0.72);
+}
+/*Apply for a finding*/
+.locationFixed{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 100;
+}
+.picCover {
+  height: 200px;
+  width: 100%;
+  object-fit:cover;
+}
+.picCover2 {
+  height: 250px;
+  width: 100%;
+  object-fit:cover;
+}
+/*Funding Group
+---------------------------------------------------------------*/
+.bg-pink{
+  background-color: #fc9494;
+  color: #fff;
+}
+.addpadding{
+  text-align: left;
+  padding:10px 15px;
+  height: auto;
+
+}
+.actionbtn{
+  background-color: #50E3C2;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  padding: 2px 12px;
+  line-height: 2;
+  color: #4a4a4a;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  margin: 10px auto;
+}
+.actionbtn:hover{
+  text-decoration: none;
+  color: #16A085;
+  background-color: rgba(80, 227, 194, 0.72);
+}
+.marginbottom{
+  margin-bottom: 30px;
+}
+.ftitle{
+  color:white;
+  font-size: 1.5em;
+}
+.contactus{
+  font-size: 3em;
+  font-weight: 500;
+}
+/* Footer 
+-------------------------------------------------------------------*/
+footer {
+  padding: 25px;
+  color: #fff;
+}
+.bg-grey{
+  background-color: #9b9b9b;
+}
+hr{
+  color: #fff;
+}
+.wider{
+  margin-left: 2%;
+}
+.header{
+  font-size: 18px;
+}
+.notes{
+  color: #fff;
+  margin-right: 1%;
+  font-size: 12px;
+}
+.line{
+  size:1px;
+  color:#fff;
+  width:100%;
+}
+.footer-text{
+  color:#fff;
+  font-size: 14px;
+  font-weight: 200;
+  margin: 10px auto;
+}
+a .footer-text{
+  color:#fff;
+  font-size: 14px;
+  font-weight: 200;
+  margin: 10px auto;
+}
+
